@@ -1,5 +1,5 @@
 {
-  "name": "npm-proj",
+  "name": "npm-proj-dash",
   "version": "1.0.0",
   "description": "npm Project giving all the details of the npm set up",
   "main": "index.js",
