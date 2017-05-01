@@ -1,6 +1,6 @@
 {
   "name": "npm-proj-dash",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "npm Project giving all the details of the npm set up",
   "main": "index.js",
   "scripts": {
