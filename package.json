@@ -1,0 +1,22 @@
+{
+  "name": "npm-proj",
+  "version": "1.0.0",
+  "description": "npm Project giving all the details of the npm set up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshangit/npm.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "darshan satya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darshangit/npm/issues"
+  },
+  "homepage": "https://github.com/darshangit/npm#readme"
+}
