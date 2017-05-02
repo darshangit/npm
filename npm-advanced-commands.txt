@@ -1,0 +1,28 @@
+Contains a list of advanced commands needed for git install and pruning
+
+INSTALLING FROM GIT
+1)npm install https://github.com/expressjs/expressjs
+  Package.json must be present in the package.
+
+INSTALLING FROm GIST
+1)npm i gist:asjdb18272189 (This is the hascode of the gist available on the URL)
+
+
+PRUNING
+
+It is a process of removing un-needed dependencies;
+
+1)npm prune
+  Removes all those packages not present in package.json
+
+2)To keep only Prod packages
+  npm prune --production
+
+To CHECK THE REPOSITORY OF THE PACKAGE 
+1)npm repo underscore :: will take to the github repo
+
+
+TO UPDATE NPM
+
+1)open cmd in ADMIN mode (DO NOT OPEN IF NOT ADMIN , will mess up the NPM)
+  npm i npm@latest -g

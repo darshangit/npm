@@ -1,0 +1,82 @@
+NPM is a Package Manager
+
+HELP
+
+1)npm install -h :: Shows all params
+2)npm help install :: opens a browser with detailed description
+
+INSTALL
+
+1)npm install or npm i 
+
+2)Install globally
+  npm i karma -g
+
+3)To install and add to package.json
+  npm i underscore --save
+  OR 
+  npm i underscore -S 
+
+4)To Save in the Dev Dependecies
+  npm i karma --save-dev 
+  OR
+  npm i karma -D 
+
+UPDATE DEPENDENCIES
+
+1)npm update 
+2)Dev Only:
+  npm update --dev 
+3)Prod Only
+  npm update --prod
+
+UNINSTALL
+
+1)npm uninstall gulp or npm un gulp
+
+2)uninstall and update package.json
+  npm un gulp --save
+
+3)uninstall globally
+  npm un karma -get
+
+PACKAGE.json
+
+1)Create
+  npm init
+
+2)Default values
+  npm init -y
+
+3)Set default settings
+  npm set init-author-name 'Dash' :: Check from doc.npmjs.com/misc/config
+
+4)Get the value
+  npm get init-author-name
+
+5)Delete a setting value
+  npm config delete init-author-name
+
+LISTING
+
+1)List the packages
+  npm list or npm ls or npm ll or npm la
+
+2)Depth
+  npm list --depth 1 :: shows 1 depth
+  OR
+  npm list --depth 0 :: shows which only I have installed
+
+3)Check globally installed packages
+  npm list --global true
+
+FORMATTING THE OUTPUT
+
+1)npm list --depth 0 --long true
+  OR
+  npm list --depth 0 --json true
+  OR
+  npm list --depth 0 --parsable true
+
+
+ 

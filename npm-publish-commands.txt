@@ -1,0 +1,41 @@
+Commands to publish to npm
+
+1)Make an account in npmjs.com 
+
+2)open gitbash:
+  npm adduser
+
+  and provide your username,password and email
+
+COMMIT TO GIT 
+
+1)git init
+2)git remote add origin www.github/username/reponame
+3)npm init
+4)git add .
+5)git commit -m "some message"
+6)git push origin master
+
+PUBLISH TO NPM 
+
+1)npm publish 
+2)npm info 
+3)npm repo npm-proj-dash :: takes to the repo 
+
+TAGS
+
+1)npm tag 1.0.2
+2)git push --tags 
+3)Check the tag tab in github
+
+PUBLISH an UPDATE
+
+Example : version: "1.0.3"
+
+npm version patch :: would become 1.0.4
+OR
+npm version minor :: would become 1.1.0
+OR
+npm version major :: would become 2.0.0
+
+the package.json version is changed and gets auto commited.

@@ -1,0 +1,42 @@
+Example: 
+Consider a version : 1.8.0, In this:
+
+1 : Major Version (Changes only when something becomes mandatory or breaks previous versions)
+8 : Minor Version (Added some new features)
+0 : Patch version (Some bug fix done)
+
+TO INSTALL LATEST VERSION OF A PACKAGE:
+
+npm i underscore@latest 
+OR 
+npm i underscore@1.8.x
+OR
+npm i underscore@1.8
+
+MEANING of ~ and ^ :
+
+1) ^
+Example:
+  underscore: "^4.17.4"
+
+This means npm will install the latest version of the software if available
+
+2) ~
+Example:
+  underscore: "~4.17.5"
+
+Latest version available is in 4 is : 4.17.9
+Most lastest is 6.
+
+This means we want the latest version of the patch release.
+In this case 4.17.9 will be used
+
+3)We want to use a specific version no matter what:
+  underscore: "4.17.4"
+
+4)to get the latest version use * or X 
+  underscore: "*"
+  OR
+  underscore: "X"
+
+
