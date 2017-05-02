@@ -7,4 +7,4 @@ Also the tags can be found which are for understanding how the versioning of the
 
 I will be updating this project with all the commands of npm which are used as bread and butter by any dev.
 
-Status : In-Progress
+Status : Up to Date
